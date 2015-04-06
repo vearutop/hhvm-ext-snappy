@@ -1,5 +1,6 @@
 # hhvm-ext-snappy
 HHVM Snappy extension
+
 This is a HHVM port of https://github.com/kjdev/php-ext-snappy
 
 ## Prerequisites ##
@@ -8,11 +9,13 @@ You need hhvm-dev to hphpize and build this extension
 
 ## Build ##
 
-    % hphpize
-    % cmake .
-    % make
-    % make install
-    
+    hphpize
+    cmake .
+    make
+    make install
+
+## Configration ##
+
 Edit /etc/hhvm/server.ini and add settings with path extension was installed 
 
     hhvm.dynamic_extension_path = /usr/local/lib64/hhvm/extensions/20150212
@@ -25,12 +28,6 @@ Restart hhvm server (as root)
 or
 
     invoke-rc.d hhvm restart
-
-## Configration ##
-
-snappy.ini:
-
-    extension=snappy.so
 
 ## Function : snappy_compress ##
 
