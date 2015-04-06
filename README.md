@@ -16,7 +16,7 @@ You need hhvm-dev to hphpize and build this extension
 
 ## Configration ##
 
-Edit /etc/hhvm/server.ini and add settings with path extension was installed 
+Edit `/etc/hhvm/server.ini` and add settings with path extension was installed 
 
     hhvm.dynamic_extension_path = /usr/local/lib64/hhvm/extensions/20150212
     hhvm.dynamic_extensions[snappy] = snappy.so
