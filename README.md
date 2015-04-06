@@ -1,5 +1,6 @@
 # hhvm-ext-snappy
 HHVM Snappy extension
+This is a HHVM port of https://github.com/kjdev/php-ext-snappy
 
 ## Prerequisites ##
 
